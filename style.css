@@ -1,0 +1,413 @@
+body {
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    background-color: #EBE3D5;
+    overflow-x: hidden; 
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #948c7d;
+    padding: 13px;
+
+}
+
+.promo {
+    color: rgb(250, 238, 228);
+    text-decoration: none;
+    margin: 7px;
+    font-size: 17px;
+    font-family: "Playfair Display", serif;
+    font-weight: 500;
+    
+}
+.promo:hover{
+    background-color: #898173;
+    font-size: 18px;
+}
+.promo1 {
+    color: rgb(250, 238, 228);
+    text-decoration: none;
+    margin: 7px;
+    font-size: 20px;
+    font-family: "Playfair Display", serif;
+    font-weight: 500;
+    margin-right: auto;
+    cursor: none;
+}
+
+video {
+    width: 100%;
+}
+
+.header {
+    text-align: center;
+    color: #6a6459;
+    font-family: "Playfair Display", serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 17px;
+}
+.header:hover {
+    font-size: 42px;
+}
+
+.year {
+    text-align: center;
+    color: #383530;
+    font-family: "Playfair Display", serif;
+    font-weight: 900;
+    
+}
+
+.ist {
+    text-align: center;
+    color: #383530;
+    font-family: "Playfair Display", serif;
+    font-weight: 900;
+    font-size: 13px;
+}
+
+.break {
+    text-align: center;
+    color: #6a6459;
+    font-family: "Playfair Display", serif;
+    font-size: 30px;
+    font-weight: 700;
+
+}
+.menu__items, .header, .promo, .promo1, .btn, .soc, .header__footer {
+    max-width: 100%;
+    box-sizing: border-box;
+}
+nav, .menu, .footer__inf {
+    max-width: 100%;
+    overflow-x: hidden; /* Дополнительная защита от горизонтального скроллинга */
+}   
+
+
+
+.menu {
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap; /* Для адаптивности */
+    box-sizing: border-box;
+    gap: 20px; /* Пространство между элементами */
+}
+
+.menu__items {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    padding: 20px; /* Внутренний отступ */
+    background-color: #d7cfc1;
+    border-radius: 10px;
+    box-sizing: border-box;
+    max-width: 100%; /* Максимальная ширина для избежания выхода за границы */
+}
+
+.produkt__img {
+    max-width: 100%;
+    height: auto; /* Для сохранения пропорций */
+    border-radius: 10px;
+}
+
+.produkt__inf {
+display: flex;
+flex-direction: column;
+justify-content: center;
+    max-width: 250px;
+    margin: 20px; /* Меньше отступ для адаптивности */
+}
+
+
+.ingredients {
+    font-size: 17px;
+    color: #555;
+    font-family: "Playfair Display", serif;
+}
+
+.chef {
+    color: #333;
+    font-family: "Playfair Display", serif; 
+    margin-top: 200px;
+}
+
+
+.cost {
+    font-weight: bold;
+    margin-top: 5px;
+    color: #333;
+    font-family: "Playfair Display", serif;
+    text-transform: uppercase;
+}
+
+.cost:hover {
+    font-size: 18px;
+}
+
+h4 {
+    color: #383530;
+    font-family: "Playfair Display", serif;
+    font-weight: 900;
+    font-size: 22px;
+}
+
+.tea {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    color: #383530;
+    font-family: "Playfair Display", serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.tea1 {
+    color: #383530;
+    font-family: "Playfair Display", serif;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+iframe {
+    max-width: 100%;
+    width: 100%;
+    height: 630px;
+    border: none;
+}
+
+.footer__inf {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10px 0 10px;
+}
+
+.where{
+    color: #383530;
+    font-size: 15px;
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+}
+.where:hover{
+    font-size: 16px;
+    font-weight: 800;
+}
+
+
+.header__footer {
+text-align: center;
+}
+
+.header__foot {
+
+    color: #383530;
+    font-family: "Playfair Display", serif;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.soc {
+    margin-top: 25px;
+}
+
+.soc__ico{
+    color:#383530;
+    padding: 5px;
+
+}
+.soc__ico:hover{
+    color:black;
+    background-color:#c0b8ac;
+}
+
+
+.btn {
+display: flex;
+justify-content: center;
+margin-left: 105px;
+}
+
+button {
+    background-color: #847d70;
+    color:#282622;
+    font-size: 16px;
+    border-radius: 7px;
+    margin-bottom: 15px;
+    border-bottom: #898173;
+    border-left: #6a6459;
+    border-right: #6a6459;
+    border-top: #898173;
+    font-family: "Playfair Display", serif;
+    padding: 5px;
+    font-weight: 800;
+    cursor:pointer;
+}
+button:hover{
+    background-color: #383530;
+    color: #d7cfc1;
+    font-size: 17px;
+}
+
+
+@media (max-width: 1140px) {
+.promo {
+    font-size: 15px;
+}
+}
+
+@media (max-width: 960px) {
+button{
+    margin-right: 70px;
+}
+.header__footer{
+    margin-right: 70px;
+}
+}
+
+@media (max-width: 720px){
+    .produkt__img {
+        width: 300px;
+    }
+}
+
+/* Общие стили для устройств шириной менее 540px */
+@media (max-width: 540px) {
+    /* Скрываем горизонтальную прокрутку */
+    body {
+        overflow-x: hidden;
+        padding: 0;
+        margin: 0;
+    }
+    .chef {
+        font-size: 13px;
+        margin-top: 20px;
+    }
+
+
+
+    .promo1, .promo {
+        font-size: 15px;
+    }
+
+
+    /* Уменьшаем размеры видео */
+    video {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Центрируем заголовки */
+    .header, .year, .break {
+        text-align: center;
+        font-size: 1.5em;
+    }
+
+    /* Меню и карточки продуктов */
+    .menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        padding: 0 10px;
+    }
+
+    .menu__items {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+
+    .produkt__img {
+        width: 100%;
+        height: auto;
+    }
+
+    .produkt__inf {
+        text-align: center;
+    }
+
+    /* Напитки */
+    .drinks .tea ul {
+        padding: 0;
+        text-align: center;
+        list-style-type: none;
+    }
+
+        /* Стили для футера */
+        .footer__inf {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            padding: 20px;
+        }
+    
+        /* Адрес */
+        .footer__inf .where {
+            font-size: 14px;
+            margin: 5px 0;
+        }
+    
+        /* Заголовок в футере */
+        .footer__inf .header__footer {
+            font-size: 20px;
+            margin: 5px 0;
+        }
+    
+        /* Иконки социальных сетей */
+        .soc {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 10px;
+        }
+    
+        .soc__ico {
+            font-size: 24px;
+        }
+    
+        /* Кнопка "Перейти в начало" */
+        .btn {
+            display: flex;
+            justify-content: center;
+            margin-top: 15px;
+        }
+    
+        .btn button {
+            font-size: 16px;
+            padding: 5px;
+            border: none;
+            background-color: #333; /* Цвет фона кнопки */
+            color: #fff; /* Цвет текста */
+            border-radius: 5px;
+            cursor: pointer;
+            margin-right: 100px;
+        }
+        
+        /* Стили кнопки при наведении */
+        .btn button:hover {
+            background-color: #555;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
